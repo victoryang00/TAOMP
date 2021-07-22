@@ -22,7 +22,11 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+    <scm>
+        <connection>scm:git:git://github.com/junit-team/junit5.git</connection>
+        <developerConnection>scm:git:git://github.com/junit-team/junit5.git</developerConnection>
+        <url>https://github.com/junit-team/junit5</url>
+    </scm>
     <build>
         <finalName>${project.artifactId}-${project.version}</finalName>
         <plugins>
